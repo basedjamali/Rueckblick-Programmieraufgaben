@@ -5,10 +5,10 @@ public class aufgabe_fünf {
     
               if (betrag >= 100) {
                  double rabatt = betrag * 0.95;
-                 System.out.println("\nBetrag: " + betrag + "\nRabatt: " + rabatt);
+                 System.out.println("\nBetrag: " + betrag + "\nMit Rabatt: " + rabatt);
               } else if (betrag >= 500) {
                 double rabatt = betrag * 0.9;
-                System.out.println("\nBetrag: " + betrag + "\nRabatt: " + rabatt);    
+                System.out.println("\nBetrag: " + betrag + "\nMit Rabatt: " + rabatt);    
               } else {
                 System.out.println("Betrag: ");    
               } // end of if-else  
